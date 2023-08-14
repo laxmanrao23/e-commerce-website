@@ -1,0 +1,138 @@
+/* Nav Bar CSS */
+
+
+.navbar {
+  border-radius: 15px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.377);
+}
+
+body{
+  padding: 10px;
+}
+
+Footer {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.navbar-brand {
+  text-align: center;
+}
+
+
+.logpage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.logpage .card {
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.welpage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.welpage .card {
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.663) 0px 3px 8px;
+  background-image: linear-gradient(to bottom right, #ffffffbe, #504d4d);
+}
+
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.prdbtn{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prdbtn .btn{
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.prdbtn .btn:hover{
+  background-color:rgb(35, 33, 41);
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.addcard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.card{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.srch{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.srch .btn{
+  background-color:rgba(33,37,41,1);
+  color: #fff;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color:rgba(33,37,41,1) !important;
+  }
+  
+.placepage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.placepage .card {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.placebtn{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.placebtn .btn{
+  background-color:rgb(35, 33, 41);
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.placebtn .btn:hover{
+  
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+
+
+
